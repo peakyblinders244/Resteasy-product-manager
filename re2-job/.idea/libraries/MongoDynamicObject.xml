@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MongoDynamicObject">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../jsf-product-manager/ProductManager/web/WEB-INF/lib/MongoDynamicObject.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
