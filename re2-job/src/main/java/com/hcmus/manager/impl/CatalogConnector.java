@@ -1,9 +1,10 @@
 package com.hcmus.manager.impl;
 
+import com.hcmus.factory.CatalogFactory;
 import com.hcmus.manager.ICatalogConnector;
 import com.hcmus.manager.base.BaseConnector;
 import com.hcmus.model.Catalog;
-import factory.CatalogFactory;
+
 import system.mongo.core.IDynamicObject;
 import system.mongo.core.connector.MongoObjectConnector;
 

@@ -42,6 +42,11 @@ public class ProductConnector extends BaseConnector implements IProductConnector
         return getMongoObjectConnectorProduct().getObjectMatchProperty(property,value,new ProductFactory());
     }
 
+    public List<Product> searchProductById(String value) {
+        String property = "id";
+        return getMongoObjectConnectorProduct().getObjectMatchProperty(property,value,new ProductFactory());
+    }
+
     public void delete(String id) {
         getMongoObjectConnectorProduct().removeDocument(id);
     }
